@@ -6,6 +6,7 @@
 
 - `translations/DawsonOaks_zh-TW.txt`：XUnity AutoTranslator 繁體中文翻譯檔。
 - `UPDATE_GUIDE_zh-TW.md`：更新與安裝說明。
+- GitHub Release：完整安裝包、已編譯修補 DLL、更新器 DLL、更新清單與 SHA-256。
 
 ## 安裝
 
@@ -17,9 +18,11 @@
 
 ## 發布範圍
 
-本儲存庫只發布翻譯資料與說明文件，不包含 Patcher 原始碼、DLL、EXE、遊戲檔案、BepInEx、XUnity 或建置專案。
+儲存庫分支只發布翻譯資料與說明文件。Release 另外提供已編譯 DLL 與完整安裝包；不發布 Patcher 原始碼、建置專案或遊戲檔案。
 
 ## 自動更新
 
-排程會從本機遊戲資料夾讀取最新校正翻譯，通過格式、行數、重複鍵與縮減比例檢查後，才同步到本儲存庫。驗證失敗時保留上一版，不覆蓋線上檔案。
+`DawsonOaks.ZhTW.Updater.dll` 在 BepInEx 預載階段讀取 GitHub 最新 Release，只有在檔名白名單與 SHA-256 驗證通過後，才更新主修補 DLL及翻譯檔。網路或驗證失敗時保留現有版本。
+
+翻譯同步排程會從本機遊戲資料夾讀取最新校正翻譯，通過格式、行數、重複鍵與縮減比例檢查後，才同步到本儲存庫。
 
