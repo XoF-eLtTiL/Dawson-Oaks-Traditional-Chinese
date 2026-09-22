@@ -1,6 +1,13 @@
 # Dawson Oaks Trailer Park 繁體中文翻譯
 
-《Dawson Oaks Trailer Park》繁體中文翻譯資料庫。
+《Dawson Oaks Trailer Park》（道森橡樹拖車公園）非官方繁體中文化、Traditional Chinese／zh-TW localization 專案。
+
+[![Latest Release](https://img.shields.io/github/v/release/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese?label=最新版)](https://github.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/total?label=下載次數)](https://github.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/releases)
+
+提供遊戲介面、教學、角色建立、設定、聊天與手機輸入相關的繁體中文翻譯和修補程式，支援 BepInEx 6 IL2CPP、XUnity AutoTranslator、中文字體與 GitHub 自動更新。
+
+**快速連結：** [下載最新版](https://github.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/releases/latest) · [安裝與更新說明](UPDATE_GUIDE_zh-TW.md) · [繁體中文翻譯檔](translations/DawsonOaks_zh-TW.txt)
 
 ## 內容
 
@@ -22,7 +29,11 @@
 
 ## 自動更新
 
-`DawsonOaks.ZhTW.Updater.dll` 在 BepInEx 預載階段讀取 GitHub 最新 Release，只有在檔名白名單與 SHA-256 驗證通過後，才更新主修補 DLL及翻譯檔。網路或驗證失敗時保留現有版本。
+`DawsonOaks.ZhTW.Updater.dll` 在 BepInEx 預載階段讀取 GitHub 最新版本，只有在檔名白名單與 SHA-256 驗證通過後，才更新主修補 DLL 及翻譯檔。網路或驗證失敗時保留現有版本。
 
 翻譯同步排程會從本機遊戲資料夾讀取最新校正翻譯，通過格式、行數、重複鍵與縮減比例檢查後，才同步到本儲存庫。
+
+## 搜尋名稱
+
+Dawson Oaks Traditional Chinese、Dawson Oaks Trailer Park 中文、Dawson Oaks 繁體中文、Dawson Oaks 中文化、道森橡樹拖車公園中文、Dawson Oaks BepInEx、Dawson Oaks XUnity、Dawson Oaks zh-TW。
 
