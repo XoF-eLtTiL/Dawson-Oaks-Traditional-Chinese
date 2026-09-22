@@ -2,11 +2,18 @@
 
 ## 從 Release 更新
 
-1. 下載最新版 `DawsonOaks_zh-TW.txt`。
+1. 建議下載最新版完整安裝包；已安裝 `v1.0.15` 之後，啟動遊戲時會自動檢查 GitHub Release。
 2. 關閉遊戲。
 3. 覆蓋遊戲目錄內：
    `BepInEx/Translation/zh-TW/Text/DawsonOaks_zh-TW.txt`
 4. 啟動遊戲。
+
+## DLL 自動更新
+
+- 更新器位置：`BepInEx/patchers/DawsonOaks.ZhTW.Updater.dll`
+- 更新主 DLL：`BepInEx/plugins/DawsonOaks.ZhTW/DawsonOaks.ZhTWPatcher.dll`
+- 更新前會核對 Release 更新清單中的 SHA-256。
+- 更新失敗、逾時或雜湊不符時不會覆蓋現有檔案。
 
 ## 翻譯檔要求
 
