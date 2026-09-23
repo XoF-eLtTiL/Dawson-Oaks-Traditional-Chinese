@@ -7,12 +7,14 @@
 
 提供遊戲介面、教學、角色建立、設定、聊天與手機輸入相關的繁體中文翻譯和修補程式，支援 BepInEx 6 IL2CPP、XUnity AutoTranslator、中文字體與 GitHub 自動更新。
 
-**快速連結：** [下載最新版](https://github.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/releases/latest) · [安裝與更新說明](UPDATE_GUIDE_zh-TW.md) · [繁體中文翻譯檔](translations/DawsonOaks_zh-TW.txt)
+**快速連結：** [下載最新版](https://github.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/releases/latest) · [詳細安裝與更新教學](UPDATE_GUIDE_zh-TW.md) · [繁體中文翻譯檔](translations/DawsonOaks_zh-TW.txt)
 
 ## 內容
 
 - `translations/DawsonOaks_zh-TW.txt`：XUnity AutoTranslator 繁體中文翻譯檔。
-- `UPDATE_GUIDE_zh-TW.md`：更新與安裝說明。
+- `UPDATE_GUIDE_zh-TW.md`：完整安裝、更新、移除與故障排除教學。
+- `手動更新翻譯.bat`：放在遊戲根目錄後可雙擊更新翻譯。
+- `tools/Update-DawsonOaksTranslation.ps1`：具備 SHA-256 與格式驗證、備份及安全替換的更新工具。
 - GitHub Release：完整安裝包、已編譯修補 DLL、更新器 DLL、更新清單與 SHA-256。
 
 ## 安裝
