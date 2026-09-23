@@ -1,10 +1,10 @@
 {
-  "version": "1.0.19",
+  "version": "1.0.20",
   "files": [
     {
       "name": "DawsonOaks.ZhTWPatcher.dll",
       "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/main/binaries/latest/DawsonOaks.ZhTWPatcher.dll",
-      "sha256": "3F6FEB369EF24BE461EA5ACA9A13FFBA5080FD9AB41DF6A28DCF1748DAEE809D"
+      "sha256": "9C9031B1AB94A2670D75F9176CA29026FF7C3522EE90DD841A76D38EA37813C7"
     }
   ]
 }
