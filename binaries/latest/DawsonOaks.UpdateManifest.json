@@ -1,15 +1,10 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "files": [
     {
       "name": "DawsonOaks.ZhTWPatcher.dll",
       "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/main/binaries/latest/DawsonOaks.ZhTWPatcher.dll",
       "sha256": "3F6FEB369EF24BE461EA5ACA9A13FFBA5080FD9AB41DF6A28DCF1748DAEE809D"
-    },
-    {
-      "name": "DawsonOaks_zh-TW.txt",
-      "url": "https://raw.githubusercontent.com/XoF-eLtTiL/Dawson-Oaks-Traditional-Chinese/main/translations/DawsonOaks_zh-TW.txt",
-      "sha256": "C5515AEC1C6E77CBB6B0C985F77FF729397A4CA4708B422E0285E09DE6824D9E"
     }
   ]
 }
