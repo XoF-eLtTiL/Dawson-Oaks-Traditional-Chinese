@@ -1184,12 +1184,12 @@ Zoom In=放大
 [start]=[開始]
 \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\r\n  DAWSON COUNTY SOCIAL SERVICES\r\n          OFFICIAL SEAL\r\n         EST. 1974 • USA\r\n\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\==\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\= 道森縣社會服務局\r\n          官方印章\r\n         創立於 1974 年 • 美國\r\n\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
 \n• Beer $2\nCold. Cheap. Tastes like regret.\n\n• Cheap Whiskey $4\nBurns going down. Burns coming back up.\n\n• Moonshine (ask quiet) $1\nNot legal. Not safe. Not our problem.\n\n• Hot Dog $2\nSometimes with bun.\nSometimes not.=\n• 啤酒 $2\n冰的。便宜。喝起來像後悔。\n\n• 廉價威士忌 $4\n喝下去會燒。吐回來也會燒。\n\n• 私酒（小聲問）$1\n不合法。不安全。不關我們的事。\n\n• 熱狗 $2\n有時有麵包。\n有時沒有。
-r:"(<color\\=#[0-9A-Fa-f]{6}>[^<]+</color>)\\nLot ([0-9]+) – Dawson Oaks Trailer Park\\nPiss Creek Road\\nDawson Oaks, KY 40922"="$1\n地塊 $2 – 道森奧克斯拖車公園\nPiss Creek Road\n道森奧克斯，肯塔基州 40922"
 r:"\[(\d+)\] Leave"=[$1] 離開
 r:"^ Your (.+?) for \$([0-9]+)$"= 你的 $1 只要 \)2
 r:"^(.+?)   VS   (.+?)$"=$1 VS $2
 r:"^(.+?) Arrests$"=$1 次逮捕
 r:"^(.+?) for $(.+?)$"=$1，售價 $$$2
+Pocket=口袋
 r:"^(.+?) has been really... cooperative. As a... citizen.$"=$1 一直都很……配合。以一個……公民來說。
 r:"^(.+?) is NOT the... supermarket guy. Wrong chat.$"=$1 不是那個……超市的傢伙。傳錯人了。
 r:"^(.+?) is comitting a crime!$"=$1 正在犯罪！
@@ -1203,7 +1203,7 @@ r:"^(.+?) wants to buy$"=$1 想購買
 r:"^(.+?) was helping... helping... helping carry groceries!!$"=$1 只是在幫忙……幫忙……幫忙搬雜貨而已！！
 r:"^(.+?)'s Trailer ?$"=$1 的拖車屋
 r:"^(.+?)'s Trailer$"=$1 的拖車屋
-r:"^(<color\\=#[A-Fa-f0-9]+>.+?</color>)\\nLot ([0-9]+) – Dawson Oaks Trailer Park\\nPiss Creek Road\\nDawson Oaks, KY 40922$"="$1\n地塊 $2 – 道森奧克斯拖車公園\nPiss Creek Road\n道森奧克斯，肯塔基州 40922"
+r:"(.+<\/color>)\\nLot ([0-9]+) – Dawson Oaks Trailer Park\\nPiss Creek Road\\nDawson Oaks, KY 40922"="$1\n地塊 $2 – 道森奧克斯拖車公園\nPiss Creek Road\n道森奧克斯，肯塔基州 40922"
 r:"^([0-9]+(?:.[0-9]+)?) m$"=$1 公尺
 r:"^- ([0-9]+)x Air [Ff]reshener$"=- $1x 空氣清新劑
 r:"^- ([0-9]+)x Bat$"=- $1x 球棒
@@ -1256,7 +1256,6 @@ r:^Current Bet : \$(\d+)$=目前賭注：$$$1
 r:^Drop \$(\d+)$=丟下 $$$1
 r:^Offer to buy \[\$(\d+)\]$=出價購買 [$$$1]
 r:^Reporting player (.+) \((\d+)\)$=正在檢舉玩家 $1 ($2)
-r:^System\.Collections\.Generic\.List`1\[LobbyPlayer\]\\nLot (\d+) – Dawson Oaks Trailer Park\\nPiss Creek Road\\nDawson Oaks, KY 40922$=System.Collections.Generic.List`1[LobbyPlayer]\n地塊 $1 – 道森奧克斯拖車屋園區\nPiss Creek Road\nDawson Oaks, KY 40922
 r:^Tattoo Limit : (\d+)/(\d+)$=刺青數量上限：$1/$2
 r:^\[(.+)\]:$=[$1]：
 sr:"^Cooperates with the Supervisor to identify the suspects while trying to not get caught. Undercover as (.+?)$"=與監督員合作查明嫌疑犯的身分，同時避免自己被識破。臥底身分：$1
